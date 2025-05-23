@@ -6,8 +6,8 @@ on:
 
 jobs:
   run-script:
-    run-on: ubuntu-latest
+   run-on: ubuntu-latest
 
-    steps:
-      -name: Print Message
-       run:echo "Schedul Workflow Execute"
+   steps:
+    - name: Print Message
+      run: echo "Schedul Workflow Executed"
